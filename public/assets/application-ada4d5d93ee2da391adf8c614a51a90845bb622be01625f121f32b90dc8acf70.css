@@ -1,0 +1,421 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+ @import "bootstrap";
+ @import "global";
+ 
+ .photoindexpath{
+   margin-right: 100px;
+   color: white;
+ }
+ .layout{
+      border: 5px solid green;
+      background-color: black;
+      /* padding-top: 50px; */
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 80px;
+
+ }
+ .navbar-brand{
+   position: relative;
+   top: 20px;
+   color: white;
+   text-decoration: none;
+
+ }
+
+ .photoindexpath{
+   position: relative;
+   top: 20px;
+   left: 50px;
+   text-decoration: none;
+ }
+
+
+ .text-muted{
+   position: relative;
+   left: 1200px;
+   bottom: 70px;
+ }
+
+
+ .dropbtn {
+     background-color: #4CAF50;
+     color: white;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+     cursor: pointer;
+     color: white;
+ }
+
+ .dropdown {
+     position: relative;
+     display: inline-block;
+     left: 1200px;
+     bottom: 60px;
+ }
+
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+ }
+
+ .dropdown-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+ }
+
+ .dropdown-content a:hover {background-color: #f1f1f1}
+
+ .dropdown:hover .dropdown-content {
+     display: block;
+ }
+
+ .dropdown:hover .dropbtn {
+     background-color: #3e8e41;
+   }
+
+
+
+
+   .backgroundlogin{
+     width: 650px;
+     height: 550px;
+     border: 10px solid green;
+     background-color: white;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     padding-left: 80px;
+     left: 300px;
+     position: relative;
+     right: 300px;
+     top: 40px;
+   }
+
+ .loginpage{
+   width: 1450px;
+   height: 80px;
+   border: 5px solid green;
+   background-color: black;
+   padding-top: 50px;
+   position: relative;
+   top: 103px;
+   right: 5px;
+
+    /* border: 5px solid lightblue; */
+ }
+
+
+
+ .about{
+   position: relative;
+   bottom: 30px;
+   left: 1250px;
+   color: white;
+   text-decoration: none;
+
+ }
+
+ .mainbackground{
+   border: 5px solid green;
+   background-color: lightblue;
+   width: 1450px;
+   height: 700px;
+   position: relative;
+   right: 10px;
+ }
+
+
+
+
+
+
+
+ /*addchannel */
+ .addchannel{
+   background-color: lightblue;
+   width: 1415px;
+   height: 662px;
+   position: relative;
+   bottom: 55px;
+   border: 5px solid green;
+
+ }
+ .addchannel1{
+   width: 1415px;
+   height: 60px;
+   border: 5px solid green;
+   background-color: lightblue;
+   position: relative;
+   top: 343px;
+   right: 5px;
+
+ }
+ .addchannel2{
+   position: relative;
+   top: 17px;
+   left: 1300px;
+   color: white;
+   text-decoration: none;
+ }
+ .addchanel3{
+   width: 400px;
+   height: 300px;
+   border: 10px solid green;
+   background-color: white;
+   position: relative;
+   left: 450px;
+   top: 150px;
+ }
+ .addchannel4{
+   position: relative;
+   left: 120px;
+ }
+
+ .addchannel5{
+   position: relative;
+   left: 100px;
+ }
+
+ .addchannel6{
+   position: relative;
+   right: 20px;
+ }
+
+
+ /*Channel*/
+ .channel{
+   background-color: lightblue;
+   width: 1415px;
+   height: 740px;
+   border: 5px solid green;
+   position: relative;
+   bottom: 55px;
+ }
+ .channel1{
+   width: 1415px;
+   height: 60px;
+   border: 5px solid green;
+   position: relative;
+   background-color: black;
+   top: 455px;
+   right: 5px;
+ }
+
+
+ /*Contact Input*/
+ .input1{
+   position: relative;
+   right: 20px;
+   top: 20px;
+   height: 100px;
+   width: 100px;
+ }
+
+ .input2{
+   position: relative;
+   right: 20px;
+   top: 20px;
+   height: 100px;
+   width: 100px;
+ }
+ .input3{
+   position: relative;
+   right: 20px;
+   top: 20px;
+   height: 100px;
+   width: 100px;
+ }
+ .contactform{
+   width: 650px;
+   height: 550px;
+   border: 10px solid green;
+   background-color: white;
+   position: relative;
+   left: 400px;
+   top: 60px;
+ }
+ .contactform1{
+   width: 1440px;
+   height: 680px;
+   background-color: lightblue;
+   position: relative;
+   bottom: 58px;
+   border: 5px solid green;
+
+ }
+ .contactform2{
+   height: 60px;
+   width: 1440px;
+   background-color: black;
+   border: 5px solid green;
+   position: relative;
+   bottom: 60px;
+   color: white;
+ }
+ .contact{
+   position: relative;
+   top: 20px;
+   color: white;
+   text-decoration: none;
+ }
+ .nameform{
+   font-size: 20px;
+   position: relative;
+   bottom: 18px;
+   left: 100px;
+ }
+ .fieldform{
+   position: relative;
+   left: 70px;
+ }
+ .addform{
+   position: relative;
+   top: 25px;
+   left: 100px;
+ }
+
+
+
+
+ /*Edit*/
+ .edit{
+   width: 1415px;
+   height: 680px;
+   background-color: lightblue;
+     border: 5px solid green;
+     position: relative;
+     bottom: 54px;
+
+ }
+  .edit1{
+   width: 600px;
+   height: 500px;
+   background-color: white;
+   border: 5px solid green;
+   position: relative;
+   left: 325px;
+   top: 80px;
+ }
+ .edit2{
+   position: relative;
+   left: 100px;
+ }
+ .edit3{
+   width: 1415px;
+   height: 60px;
+   background-color: black;
+   border: 5px solid green;
+   color: white;
+   position: relative;
+   top: 155px;
+   right: 5px;
+ }
+ .edit4{
+   position: relative;
+   top: 20px;
+   left: 1300px;
+   color: white;
+   text-decoration: none;
+ }
+.navbar-nav .nav-item span {
+  display: block;
+  padding-bottom: 0.425rem;
+  padding-top: 0.425rem;
+}
+
+h1 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#messages {
+  max-height: 450px;
+  overflow-y: auto;
+  .avatar {
+    margin: 0.5rem;
+  }
+}
+
+footer {
+  margin-top: 50px;
+}
+.myloginpage{
+  margin-right: 200px;
+  width: 100px;
+}
+.nav-link{
+  color: black;
+}
+.login{
+  margin-right: 200px;
+}
+/* // Place all the styles related to the Photo controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/ */
+
+  .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      .uploads{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .images{
+        .post{
+            width: 100px;
+            border-radius: 10px;
+            border: 1px solid rgb(214, 210, 210);
+            margin-bottom: 20px;
+            height: 100px;
+            position: relative;
+            left: 500px;
+            
+
+        }
+    }
+    .post-image{
+        width: 50%;
+    }
+    .post-caption{
+        padding-left: 20px;
+    }
+    .uploads{
+        display: flex;
+        justify-content: space-between;
+    }
+    input[type="submit"]{
+        background-color: #333333;
+        border: none;
+        color: white;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }

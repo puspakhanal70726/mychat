@@ -1,0 +1,31 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<div class="messagebox1">
+<div class="messagebox">
+
+<h1 class="titlename"><%= @chat_room.title %></h1>
+<div class="message11">
+<div id="messages" data-chat-room-id="<%= @chat_room.id %>">
+  <%= render @chat_room.messages %>
+</div>
+
+<hr>
+
+<%= form_for @message, url: '#' do |f| %>
+  <%= hidden_field_tag 'chat_room_id', @chat_room.id, class: 'message10' %>
+  <div class="form-group">
+    <%= f.label :body, class: 'message9'%>
+    <%= f.text_area :body, class: 'message8' %>
+    <small class="text-muted"></small>
+  </div>
+
+  <%= f.submit "Message", class: 'messagearea' %>
+  <!-- <div class="w3-container w3-center w3-animate-right">
+    <h1 class="rightside">From 2 to 1000 characters</h1>
+  </div> -->
+<% end %>
+</div>
+</div>
+</div>

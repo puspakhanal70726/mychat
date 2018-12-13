@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chatroom</title>
+  <%= csrf_meta_tags %>
+  <script src="https://js.pusher.com/4.1/pusher.min.js"></script>
+  <script>
+          var pusher = new Pusher('3773a481f6ab63199063', {
+          cluster: 'us2',
+          encrypted: true
+        });
+        </script>
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body class="mybodybackground">
+<!-- <nav class="navbar navbar-dark bg-inverse"> -->
+  <div class="layout">
+  <%= link_to 'CHATROOM', root_path, class: 'navbar-brand' %>
+  <%= link_to "Photo Sharing", photo_index_path, class: 'photoindexpath' %>
+  <%= link_to 'Contact Us', new_contact_path, class: 'contact'%>
+
+  </div>
+
+
+
+
+  <% if user_signed_in? %>
+  <div class="dropdown">
+    <button class="dropbtn"><strong><%= current_user.name %></strong></button>
+    <div class="dropdown-content">
+      <%= link_to 'Log out', destroy_user_session_path, method: :delete, class: 'nav-link' %>
+      <%= link_to "Update Acount", edit_user_registration_path %>
+    </div>
+
+  </div>
+  <% end %>
+<!-- </nav> -->
+
+<div class="container">
+  <%= yield %>
+  <%= render 'layouts/footer' %>
+</div>
+</body>
+</html>

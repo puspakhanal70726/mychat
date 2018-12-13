@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dxnickn3j
+  api_key: '744143944575393'
+  api_secret: iStwzb_1UOsJ4O868Om_qLGlObE
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dxnickn3j
+  api_key: '744143944575393'
+  api_secret: iStwzb_1UOsJ4O868Om_qLGlObE
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dxnickn3j
+  api_key: '744143944575393'
+  api_secret: iStwzb_1UOsJ4O868Om_qLGlObE
+  enhance_image_tag: true
+  static_image_support: false

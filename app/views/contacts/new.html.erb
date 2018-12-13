@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- <div class="contactform1"> -->
+<div class="contactform">
+<div align="center">
+  <div class="w3-container w3-center w3-animate-top">
+    <h1>Send A message to Us</h1>
+  </div>
+
+  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+  <div class="input1">
+    <%= f.input :name, :required => true %>
+    </div>
+    <span></span>
+    <div class="input2">
+    <%= f.input :email, :required => true %>
+    </div>
+    <span></span>
+    <div class="input3">
+    <%= f.input :message, :as => :text, :required => true %>
+    </div>
+    <div>
+      </br>
+      <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
+    </div>
+  <% end %>
+</div>
+</div>
+</div>
+<!-- <div class="contactform2">
+    <%# <%= link_to 'About', root_path, class: 'addchannel2' %> %>
+  </div> -->
+
+
+  <!-- <footer class="footer3">
+    <small>
+      All rights reserved
+    </small>
+    <nav>
+      <ul>
+        <%# <%= link_to 'About', root_path, class: 'about' %>
+      </ul> %>
+    </nav>
+  </footer> -->

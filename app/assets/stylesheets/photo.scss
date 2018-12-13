@@ -1,0 +1,68 @@
+/* // Place all the styles related to the Photo controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/ */
+  .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      .uploads{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    // .images{
+    //     .post{
+    //         width: 500px;
+    //         height: 100px;
+    //         border-radius: 10px;
+    //         border: 1px solid rgb(214, 210, 210);
+    //         margin-bottom: 20px;
+    //         height: 100px;
+    //         position: relative;
+    //         left: 500px;
+    //
+    //
+    //     }
+    // }
+    // .post-image{
+    //     width: 500px;
+    //     height: 900px;
+    // }
+    // .post-caption{
+    //     padding-left: 10px;
+    // }
+    .uploads{
+        display: flex;
+        justify-content: space-between;
+    }
+    input[type="submit"]{
+        background-color: #333333;
+        border: none;
+        color: white;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+.post-image{
+  width: 600px;
+  height: 450px;
+  position: relative;
+  left: 400px;
+  top: 30px;
+  border: 10px solid green;
+}
+
+.photobackground{
+  position: relative;
+  bottom: 60px;
+}
+.post-caption{
+  position: relative;
+  left: 400px;
+  top: 35px;
+  font-size: 30px;
+  color: blue;
+}

@@ -1,0 +1,2 @@
+class PhotofeedController < ApplicationController
+end
