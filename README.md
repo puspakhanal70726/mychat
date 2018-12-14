@@ -33,7 +33,7 @@ Install all of the required gems from your specified sources:
 
   Run: rails s
 
-After running rails s visist: $ localhost:30000
+Also, if we try to go to http://localhost:3000 , we’re redirected to the login page.
 
 Usage
 
