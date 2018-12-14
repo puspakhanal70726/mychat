@@ -10,6 +10,13 @@ Requirements
 
   Require ruby version 2.5.0 to be installed to use. For admin login I used ruby framework to make admin login though API.
 
+
+  From the Teriminal
+
+  Clone: $ git clone https://github.com/puspakhanal70726/mychat.git
+
+  Make sure you need to be in the folder name: mychat
+
 Installing
 
 Dependencies must be installed to work properly.
@@ -18,23 +25,15 @@ Getting started with bundler is easy.
 
 Open a terminal window and run this command:
 
-  gem install bundler
-
-Specify your dependencies in a Gemfile in your project's root:
-
-  source 'https://rubygems.org'
-
-  gem 'nokogiri'
-
-  gem 'rack', '~> 2.0.1'
-
-  gem 'rspec'
+  gem install bundle
 
 Install all of the required gems from your specified sources:
 
-  bundle install
+  Run: $ bundle install
 
-  git add Gemfile Gemfile.lock
+  Run: rails s
+
+After running rails s visist: $ localhost:30000
 
 Usage
 
