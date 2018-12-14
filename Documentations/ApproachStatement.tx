@@ -1,0 +1,13 @@
+Approach Statement:
+  This app was created using Ruby and Rails is framework to built it. I use API to collection data form the users and a admin login.
+
+The application itself is deployed on Heroku:
+  https://mysecurechat.herokuapp.com/users/sign_in
+
+And I use SQllite3 database to collected remote database.
+
+I used several dependencies for API(see reqirement.tx) These include:
+  postgress database to delployed in the heroku
+  -gunicorn - used to get the app working once deployed to heroku
+
+I also used rails-admin for visualization part of my project.

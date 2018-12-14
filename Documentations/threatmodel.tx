@@ -1,14 +1,15 @@
 Threat Model
 
 Access to user's:
-  Users do not have permision to access to other user acounts, That is why each user have differen users name and passport.
+  Users do not have permission to access to other user accounts, That is why each user have different users name and passport. Once a user logs in, they can use the app under their name, they are unable to do anything in another account.
 
 
 Access to admin's:
-  Admin has admin page where admin can controlled the app. Admin can deleted the user, check the message and see the post what ever user activies.
+  Admin has admin page where admin can controlled the app. Admin can deleted the user, check the message and see the post what ever user actives.
 
 SQL Injections:
-
+  User can try to Inject sql command into the app, this will not work. I have create my app with limit number and character will only work. Additionally, all other inputs are sanitized to prevent the injection.
 
 
 Access to the database:
+  For my app I did not find the static page in the Heroku to open up all connection for all the IP address. I did not change username and password to access to the database.
