@@ -1,0 +1,14 @@
+Threat Model
+
+Access to user's:
+  Users do not have permision to access to other user acounts, That is why each user have differen users name and passport.
+
+
+Access to admin's:
+  Admin has admin page where admin can controlled the app. Admin can deleted the user, check the message and see the post what ever user activies.
+
+SQL Injections:
+
+
+
+Access to the database:
